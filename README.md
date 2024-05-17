@@ -1,0 +1,2 @@
+# revisiFundamental
+gagal import
