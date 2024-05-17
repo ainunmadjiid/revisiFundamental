@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+
+    <!--Favicon-->
+    <link rel="icon" href="favicon-32x32.png" sizes="48x48" />
+  </head>
+  <body>
+    <header>
+      <app-bar></app-bar>
+    </header>
+
+    <main>
+      <div id="inputBarContainer" class="input-bar-container">
+        <input-note></input-note>
+      </div>
+      <div id="noteListContainer">
+        <note-item></note-item>
+      </div>
+    </main>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
